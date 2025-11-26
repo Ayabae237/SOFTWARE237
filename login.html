@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/login.css">
+</head>
+
+<body>
+
+
+<div class="screen">
+
+    <!-- Background Circles -->
+    <div class="circle big c1"></div>
+    <div class="circle big c2"></div>
+    <div class="circle big c3"></div>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="/mnt/data/e7b93bca-b825-473f-89a5-a457ffe8b1c2.PNG" class="logo">
+        <h1>Welcome<br>Back</h1>
+    </div>
+
+    <!-- Sign In Form -->
+    <form action="login.php" method="POST">
+
+        <h2>Sign in</h2>
+    
+        <label>Email Address</label>
+        <div class="input-row">
+            <input type="email" name="email" required placeholder="Example@gmail.com">
+            <span class="check">✓</span>
+        </div>
+    
+        <label>Password</label>
+        <div class="input-row">
+            <input type="password" name="password" required placeholder="Enter Password">
+            <span class="eye"></span>
+        </div>
+    
+        <a href="#" class="forgot">Forgot Password?</a>
+    
+        <div class="bottom-btn">
+            <button type="submit" class="sign-btn">Sign in <span>→</span></button>
+        </div>
+    
+    </form>
+    
+
+    <!-- Button -->
+    <div class="bottom-btn">
+        <button class="sign-btn">Sign in <span>→</span></button>
+    </div>
+
+</div>
+
+</body>
+</html>
